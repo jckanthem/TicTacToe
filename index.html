@@ -2,7 +2,6 @@
 <title>Tic Tac Toe</title>
 <head> Tic Tac Toe!</head>  
 <body>
-  <script src="app.js"></script>
   <style>
     th{
       background-color: rgb(188, 148, 235); 
@@ -10,22 +9,30 @@
       height: 100px;
     }
   </style>
-  <table> 
+  <span id="winMessage" style="display:none"></span>
+  <table class="game"> 
     <tr>
+      <th class="box00"></th>
+      <th class="box10"></th>
+      <th class="box20"></th>
+    </tr>
+    <tr>
+      <th class="box01"></th>
       <th class="box11"></th>
       <th class="box21"></th>
-      <th class="box31"></th>
     </tr>
     <tr>
+      <th class="box02"></th>
       <th class="box12"></th>
       <th class="box22"></th>
-      <th class="box32"></th>
-    </tr>
-    <tr>
-      <th class="box13"></th>
-      <th class="box23"></th>
-      <th class="box33"></th>
     </tr>
   </table>
-  
+  <span id="turn">Turn: X</span>
+  <button type="button" id="restart" style="display:none">New Game</button>
+  <div class="gameInfo">
+    <span>Game Count: <p id="gameCount">0</p></span> 
+    <span>Player 'X' wins: <p id="xWins">0</p></span>
+    <span>Player 'O' wins: <p id="oWins">0</p></span>
+  </div>
+  <script src="app.js"></script>
 </body>
