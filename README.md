@@ -1,5 +1,5 @@
 # TicTacToe
-Tic Tac Toe with raw JS
+Tic Tac Toe with raw JS served with express
 # How to Play
 Clone the repository and then run the following: 
 ```
