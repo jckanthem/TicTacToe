@@ -15,10 +15,10 @@ class Input {
         state.resetState();
       } else if(state.totalMoves === 9){
         state.score.ties++;
-        view.tieGameUpdate()
+        view.tieGameUpdate();
         state.resetState();
       } else{
-      state.turn = !state.turn
+        state.turn = !state.turn;
       }
     }
   }

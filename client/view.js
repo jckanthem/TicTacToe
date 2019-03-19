@@ -26,9 +26,9 @@ class View {
   }
   endGameViewUpdate(winner, state, player1, player2){
     document.getElementById('gameCount').innerHTML = state.score.player1 + state.score.player2 + state.score.ties;
-    document.getElementById('xWins').innerHTML = state.score.player1
+    document.getElementById('xWins').innerHTML = state.score.player1;
     document.getElementById('oWins').innerHTML = state.score.player2;
-    document.getElementById('winMessage').innerHTML = `${winner === 'X' ? player1 + ' (X)' : player2 + ' (O)'} Wins!`
+    document.getElementById('winMessage').innerHTML = `${winner === 'X' ? player1 + ' (X)' : player2 + ' (O)'} Wins!`;
     document.getElementById('winMessage').style.display = "";
     document.querySelector('button').style.display = "";
     document.getElementById('turn').style.display = "none";

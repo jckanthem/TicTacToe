@@ -34,6 +34,5 @@ class State {
                   [null,null,null],
                   [null,null,null]];
     this.totalMoves = 0;
-
   }
 }

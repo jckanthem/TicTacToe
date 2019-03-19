@@ -15,6 +15,6 @@ class App {
 let app = new App();
 let state = new State();
 let input = new Input();
-let view = new View()
+let view = new View();
 
 app.initialize();
