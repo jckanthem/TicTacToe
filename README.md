@@ -4,5 +4,5 @@ Tic Tac Toe with raw JS
 Clone the repository and then run the following: 
 ```
 npm install
-node .
+npm start
 ```
