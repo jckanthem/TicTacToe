@@ -2,7 +2,6 @@ class View {
   updateScoreboard(input, state){
     document.getElementById('player1').innerHTML = `${(input.player1)} (X)`;
     document.getElementById('player2').innerHTML = `${input.player2} (O)`;
-    console.log(typeof input.player1);
   }
   restartView(){
     document.querySelector('button').style.display = "none";

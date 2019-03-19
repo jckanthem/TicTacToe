@@ -2,7 +2,7 @@ class App {
   initialize(){
     document.querySelector('button').addEventListener('click', view.restartView);
     input.getPlayerNames();
-    view.updateScoreboard(input,state);
+    view.updateScoreboard(input);
     view.restartView();
     document.querySelectorAll('.board > div').forEach(box => {
       box.innerHTML = '';
