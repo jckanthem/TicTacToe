@@ -1,0 +1,25 @@
+.board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 606px;
+  height: 606px;
+}
+.board > div{
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(74, 48, 104); 
+  text-align: center;
+  line-height: 200px;
+  font-size: 100px;
+}
+#winMessage {
+  font-size: 45px;
+  font-weight: bolder;
+}
+#turn {
+  font-size: 20px;
+}
+th{
+  border: 1px solid black;
+}
